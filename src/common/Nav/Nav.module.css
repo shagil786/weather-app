@@ -1,0 +1,62 @@
+.conatiner {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+}
+
+.tempStyle {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: fit-content;
+}
+
+.rightStyle {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.searchStyle {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+}
+
+.iconStyle {
+    position: absolute;
+    margin-left: 6px;
+}
+
+.searchStyle input {
+    outline: none;
+    border: none;
+    height: 32px;
+    width: 200px;
+    border-radius: inherit;
+    padding: 0px 00px 0px 24px;
+    background-color: #2d2e38;
+    color: #fff;
+}
+
+.leftStyle {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.userInfoStyle p {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.userInfoStyle {
+    font-size: 24px;
+}
+
+.leftStyle img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
